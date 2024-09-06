@@ -1,0 +1,51 @@
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center;
+  padding: 10px;
+  background-color: #4b0082; /* Dark purple color */
+  position: fixed; /* Keeps navbar at the top */
+  width: 100%; /* Full width of the viewport */
+  top: 0; /* Aligns to the top of the page */
+  left: 0;
+  z-index: 1000; /* Ensures navbar is above other content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+}
+
+/* Navbar container to center content */
+.navbar-container {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;
+  width: 100%;
+}
+
+/* Logo styling */
+.logo {
+  width: 80px; /* Adjust width as needed */
+  height: 80px; /* Adjust height as needed */
+  border-radius: 50%; /* Makes the logo circular */
+  object-fit: cover; /* Ensures the image covers the circle without distortion */
+  margin-right: 20px; /* Space between logo and navbar items */
+}
+
+/* Navbar links styling */
+.navbar-links {
+  display: flex;
+  gap: 20px; /* Space between links */
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white; /* White text for the links */
+  font-weight: bold;
+  font-size: 1rem; /* Adjust font size as needed */
+}
+
+.navbar-links a:hover {
+  text-decoration: underline; /* Underline on hover for better visibility */
+}

@@ -1,0 +1,39 @@
+/* Home page styling */
+.home-page {
+  background-color: #d1e3d8; /* Smoking green background color */
+  padding: 20px;
+  padding-top: 80px; /* Add padding to the top to avoid content being hidden under the fixed header */
+  text-align: center;
+  min-height: 100vh; /* Ensures the content covers the viewport height */
+}
+
+.home-header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4b0082; /* Dark purple color for the heading */
+  margin-bottom: 20px;
+}
+
+.home-subheader {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.home-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between images */
+  margin-bottom: 20px;
+}
+
+.home-img {
+  width: 300px; /* Adjust width as needed */
+  height: auto;
+  border-radius: 8px; /* Optional: adds rounded corners to images */
+}
+
+.home-message {
+  font-size: 1.2rem;
+  color: #333;
+}
