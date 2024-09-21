@@ -1,0 +1,36 @@
+.categories-page {
+  background-color: #f0f8ff; /* Light blue color */
+  padding: 20px;
+  text-align: center;
+}
+
+.categories-page h1 {
+  margin-bottom: 20px;
+}
+
+.categories-page select {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+/* Ensure property list is centered and images are visible */
+.property-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.property-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px; /* Adjust as needed */
+  text-align: center;
+}
+
+.property-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}

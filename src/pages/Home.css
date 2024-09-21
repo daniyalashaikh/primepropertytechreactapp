@@ -1,0 +1,95 @@
+.home-page {
+  min-height: 100vh; 
+  width: 100%; 
+  background-image: url('../images/background.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  text-align: center;
+  color: rgba(3, 88, 62, 0.719);
+  padding-bottom: 60px; 
+}
+
+.home-header {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgb(29, 9, 82);
+}
+
+.home-subheader {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  background: rgba(223, 202, 202, 0.5);
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.home-message {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  padding: 10px;
+  background: rgba(223, 202, 202, 0.5);
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  color: rgb(0, 0, 0);
+}
+
+.category-dropdown {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+/* Adjusted CSS for property images */
+.property-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center images horizontally */
+  gap: 20px; /* Add space between images */
+  margin-top: 40px; /* Top margin for better spacing */
+}
+
+.property-image {
+  max-width: 300px; 
+  width: 100%; /* Make images responsive */
+  height: auto; 
+  border: 1px solid #d48484; /* Optional border */
+  padding: 10px; /* Padding inside image container */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add slight shadow */
+  border-radius: 10px; /* Add rounded corners */
+}
+.contact-message {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  background: rgba(223, 202, 202, 0.5); /* Box background */
+  padding: 15px;
+  border-radius: 10px; /* Curved edges */
+  text-align: center;
+}
+
+.whatsapp-box {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgba(3, 59, 104, 0.5); /* Same background for the box */
+  border-radius: 8px; /* Curved edges for the box */
+}
+
+.whatsapp-link {
+  color: rgb(62, 255, 4);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.whatsapp-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,54 @@
+.help-page {
+  background-color: #f1f1f1; /* Change to smoking green if needed */
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.help-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem; /* Adjust the size as needed */
+  color: #333; /* Dark color for the text */
+}
+
+.help-form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.help-form {
+  background: #9cccff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+.help-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.help-form input,
+.help-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.help-form button {
+  background-color: #2f2cd3; /* Green background */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.help-form button:hover {
+  background-color: #1411d4; /* Darker green on hover */
+}

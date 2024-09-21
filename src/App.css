@@ -1,0 +1,27 @@
+body {
+  background-color: #f0f9f4;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 60px; /* Ensure there's room before the footer */
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #390f86;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative; /* Remove any fixed or sticky positioning */
+  width: 100%;
+  bottom: 0;
+}

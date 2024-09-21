@@ -1,0 +1,35 @@
+/* Styling for the navbar background color */
+.navbar {
+  background-color: #390f86 !important; /* Set the navbar color */
+}
+
+/* Styling for the logo and brand text */
+.navbar-brand {
+  font-size: 1.8rem; /* Increase the size of the brand text */
+  font-weight: bold; /* Make it bold for more emphasis */
+  display: flex;
+  align-items: center;
+}
+
+/* Adjust the logo size if needed */
+.logo {
+  height: 40px; /* Adjust the logo height */
+  margin-right: 10px; /* Add some space between the logo and text */
+}
+
+/* Center the navigation items */
+.navbar-nav {
+  margin: 0 auto; /* Center the navbar items */
+}
+
+.nav-link {
+  font-size: 1.2rem; /* Increase the size of the navbar links */
+  margin-left: 15px; /* Add space between each item */
+  margin-right: 15px; /* Add space between each item */
+  color: #fff; /* Make the text color white for better contrast */
+}
+
+/* Hover effect for the links */
+.nav-link:hover {
+  color: #ddd; /* Slightly lighter color on hover */
+}

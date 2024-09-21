@@ -1,0 +1,22 @@
+/* About page styling */
+.about-container {
+    background-color: #f0f8ff; /* Light blue background color */
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .about-heading {
+    font-size: 2.5rem;
+    color: #4b0082; /* Dark purple color for the heading */
+    margin-bottom: 20px;
+  }
+  
+  .about-paragraph {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
